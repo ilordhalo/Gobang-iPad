@@ -5,6 +5,36 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0FA0C4CE1A2CC07A003D65F4"
+               BuildableName = "&#x4e94;&#x5b50;&#x68cb;ipad.app"
+               BlueprintName = "&#x4e94;&#x5b50;&#x68cb;ipad"
+               ReferencedContainer = "container:&#x4e94;&#x5b50;&#x68cb;ipad.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0FA0C4E71A2CC07B003D65F4"
+               BuildableName = "&#x4e94;&#x5b50;&#x68cb;ipadTests.xctest"
+               BlueprintName = "&#x4e94;&#x5b50;&#x68cb;ipadTests"
+               ReferencedContainer = "container:&#x4e94;&#x5b50;&#x68cb;ipad.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +42,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0FA0C4E71A2CC07B003D65F4"
+               BuildableName = "&#x4e94;&#x5b50;&#x68cb;ipadTests.xctest"
+               BlueprintName = "&#x4e94;&#x5b50;&#x68cb;ipadTests"
+               ReferencedContainer = "container:&#x4e94;&#x5b50;&#x68cb;ipad.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0FA0C4CE1A2CC07A003D65F4"
+            BuildableName = "&#x4e94;&#x5b50;&#x68cb;ipad.app"
+            BlueprintName = "&#x4e94;&#x5b50;&#x68cb;ipad"
+            ReferencedContainer = "container:&#x4e94;&#x5b50;&#x68cb;ipad.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -23,6 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0FA0C4CE1A2CC07A003D65F4"
+            BuildableName = "&#x4e94;&#x5b50;&#x68cb;ipad.app"
+            BlueprintName = "&#x4e94;&#x5b50;&#x68cb;ipad"
+            ReferencedContainer = "container:&#x4e94;&#x5b50;&#x68cb;ipad.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -32,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0FA0C4CE1A2CC07A003D65F4"
+            BuildableName = "&#x4e94;&#x5b50;&#x68cb;ipad.app"
+            BlueprintName = "&#x4e94;&#x5b50;&#x68cb;ipad"
+            ReferencedContainer = "container:&#x4e94;&#x5b50;&#x68cb;ipad.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

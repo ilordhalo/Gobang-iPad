@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0D78161BC77AA600EF5466 /* ILAI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0D78151BC77AA600EF5466 /* ILAI.m */; settings = {ASSET_TAGS = (); }; };
+		0F3D98F81A396A040087C2D2 /* AlartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3D98F41A396A040087C2D2 /* AlartViewController.m */; };
+		0F3D98F91A396A040087C2D2 /* AlartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3D98F51A396A040087C2D2 /* AlartViewController.xib */; };
+		0F3D98FA1A396A040087C2D2 /* expendAlertViewDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F3D98F61A396A040087C2D2 /* expendAlertViewDemo-Info.plist */; };
+		0F8383BC1A3EA54D00CAE331 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8383B91A3EA54D00CAE331 /* background2.png */; };
+		0F8383BD1A3EA54D00CAE331 /* background3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8383BA1A3EA54D00CAE331 /* background3.png */; };
+		0F8383BE1A3EA54D00CAE331 /* background4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8383BB1A3EA54D00CAE331 /* background4.png */; };
+		0F8383C01A3EADA000CAE331 /* background5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8383BF1A3EADA000CAE331 /* background5.png */; };
 		0FA0C4D51A2CC07B003D65F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0C4D41A2CC07B003D65F4 /* main.m */; };
 		0FA0C4D81A2CC07B003D65F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0C4D71A2CC07B003D65F4 /* AppDelegate.m */; };
-		0FA0C4DB1A2CC07B003D65F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0C4DA1A2CC07B003D65F4 /* ViewController.m */; };
-		0FA0C4DE1A2CC07B003D65F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA0C4DC1A2CC07B003D65F4 /* Main.storyboard */; };
 		0FA0C4E01A2CC07B003D65F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA0C4DF1A2CC07B003D65F4 /* Images.xcassets */; };
 		0FA0C4E31A2CC07B003D65F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FA0C4E11A2CC07B003D65F4 /* LaunchScreen.xib */; };
 		0FA0C4EF1A2CC07B003D65F4 /* ___ipadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0C4EE1A2CC07B003D65F4 /* ___ipadTests.m */; };
+		0FA28EB61A3DDA2C00DC4E17 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA28EB51A3DDA2C00DC4E17 /* SettingViewController.m */; };
+		0FC2CA7F1A3456F7007B8990 /* allmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2CA6F1A3456F7007B8990 /* allmap.png */; };
+		0FC2CA801A3456F7007B8990 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2CA711A3456F7007B8990 /* LaunchScreen.xib */; };
+		0FC2CA811A3456F7007B8990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2CA731A3456F7007B8990 /* Main.storyboard */; };
+		0FC2CA821A3456F7007B8990 /* blackchess.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2CA751A3456F7007B8990 /* blackchess.png */; };
+		0FC2CA831A3456F7007B8990 /* blackchess(j).png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2CA761A3456F7007B8990 /* blackchess(j).png */; };
+		0FC2CA851A3456F7007B8990 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2CA791A3456F7007B8990 /* ViewController.mm */; };
+		0FC2CA861A3456F7007B8990 /* whitechess.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2CA7A1A3456F7007B8990 /* whitechess.png */; };
+		0FC2CA871A3456F7007B8990 /* whitechess(j).png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2CA7B1A3456F7007B8990 /* whitechess(j).png */; };
+		0FC2CA881A3456F7007B8990 /* ZFiveq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2CA7C1A3456F7007B8990 /* ZFiveq.cpp */; };
+		0FC2CA891A3456F7007B8990 /* ZstartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2CA7E1A3456F7007B8990 /* ZstartButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +44,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0D78141BC77AA600EF5466 /* ILAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILAI.h; sourceTree = "<group>"; };
+		0F0D78151BC77AA600EF5466 /* ILAI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILAI.m; sourceTree = "<group>"; };
+		0F3D98F31A396A040087C2D2 /* AlartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlartViewController.h; sourceTree = "<group>"; };
+		0F3D98F41A396A040087C2D2 /* AlartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlartViewController.m; sourceTree = "<group>"; };
+		0F3D98F51A396A040087C2D2 /* AlartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlartViewController.xib; sourceTree = "<group>"; };
+		0F3D98F61A396A040087C2D2 /* expendAlertViewDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "expendAlertViewDemo-Info.plist"; sourceTree = "<group>"; };
+		0F3D98F71A396A040087C2D2 /* expendAlertViewDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "expendAlertViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0F8383B91A3EA54D00CAE331 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		0F8383BA1A3EA54D00CAE331 /* background3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background3.png; sourceTree = "<group>"; };
+		0F8383BB1A3EA54D00CAE331 /* background4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background4.png; sourceTree = "<group>"; };
+		0F8383BF1A3EADA000CAE331 /* background5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background5.png; sourceTree = "<group>"; };
+		0F8E26301A3D71B6005C9301 /* LordConstat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LordConstat.h; sourceTree = "<group>"; };
 		0FA0C4CF1A2CC07B003D65F4 /* 五子棋ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "五子棋ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA0C4D31A2CC07B003D65F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FA0C4D41A2CC07B003D65F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0FA0C4D61A2CC07B003D65F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0FA0C4D71A2CC07B003D65F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0FA0C4D91A2CC07B003D65F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0FA0C4DA1A2CC07B003D65F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0FA0C4DD1A2CC07B003D65F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FA0C4DF1A2CC07B003D65F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0FA0C4E21A2CC07B003D65F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0FA0C4E81A2CC07B003D65F4 /* 五子棋ipadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "五子棋ipadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA0C4ED1A2CC07B003D65F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FA0C4EE1A2CC07B003D65F4 /* ___ipadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___ipadTests.m"; sourceTree = "<group>"; };
+		0FA28EB41A3DDA2C00DC4E17 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		0FA28EB51A3DDA2C00DC4E17 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		0FC2CA6F1A3456F7007B8990 /* allmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = allmap.png; sourceTree = "<group>"; };
+		0FC2CA721A3456F7007B8990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		0FC2CA741A3456F7007B8990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		0FC2CA751A3456F7007B8990 /* blackchess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackchess.png; sourceTree = "<group>"; };
+		0FC2CA761A3456F7007B8990 /* blackchess(j).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackchess(j).png"; sourceTree = "<group>"; };
+		0FC2CA781A3456F7007B8990 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0FC2CA791A3456F7007B8990 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		0FC2CA7A1A3456F7007B8990 /* whitechess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitechess.png; sourceTree = "<group>"; };
+		0FC2CA7B1A3456F7007B8990 /* whitechess(j).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitechess(j).png"; sourceTree = "<group>"; };
+		0FC2CA7C1A3456F7007B8990 /* ZFiveq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZFiveq.cpp; sourceTree = "<group>"; };
+		0FC2CA7D1A3456F7007B8990 /* ZFiveq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFiveq.h; sourceTree = "<group>"; };
+		0FC2CA7E1A3456F7007B8990 /* ZstartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZstartButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +100,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3D98F21A396A040087C2D2 /* ExpandAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				0F3D98F31A396A040087C2D2 /* AlartViewController.h */,
+				0F3D98F41A396A040087C2D2 /* AlartViewController.m */,
+				0F3D98F51A396A040087C2D2 /* AlartViewController.xib */,
+			);
+			path = ExpandAlertView;
+			sourceTree = "<group>";
+		};
+		0F8383B01A3EA32400CAE331 /* myimage */ = {
+			isa = PBXGroup;
+			children = (
+				0FC2CA6F1A3456F7007B8990 /* allmap.png */,
+				0FC2CA751A3456F7007B8990 /* blackchess.png */,
+				0F8383BF1A3EADA000CAE331 /* background5.png */,
+				0FC2CA761A3456F7007B8990 /* blackchess(j).png */,
+				0F8383B91A3EA54D00CAE331 /* background2.png */,
+				0F8383BA1A3EA54D00CAE331 /* background3.png */,
+				0F8383BB1A3EA54D00CAE331 /* background4.png */,
+				0FC2CA7A1A3456F7007B8990 /* whitechess.png */,
+				0FC2CA7B1A3456F7007B8990 /* whitechess(j).png */,
+				0FC2CA7E1A3456F7007B8990 /* ZstartButton.png */,
+			);
+			name = myimage;
+			sourceTree = "<group>";
+		};
 		0FA0C4C61A2CC07A003D65F4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +148,24 @@
 		0FA0C4D11A2CC07B003D65F4 /* 五子棋ipad */ = {
 			isa = PBXGroup;
 			children = (
+				0F8E26301A3D71B6005C9301 /* LordConstat.h */,
 				0FA0C4D61A2CC07B003D65F4 /* AppDelegate.h */,
 				0FA0C4D71A2CC07B003D65F4 /* AppDelegate.m */,
-				0FA0C4D91A2CC07B003D65F4 /* ViewController.h */,
-				0FA0C4DA1A2CC07B003D65F4 /* ViewController.m */,
-				0FA0C4DC1A2CC07B003D65F4 /* Main.storyboard */,
 				0FA0C4DF1A2CC07B003D65F4 /* Images.xcassets */,
 				0FA0C4E11A2CC07B003D65F4 /* LaunchScreen.xib */,
+				0FA28EB41A3DDA2C00DC4E17 /* SettingViewController.h */,
+				0FA28EB51A3DDA2C00DC4E17 /* SettingViewController.m */,
+				0FC2CA781A3456F7007B8990 /* ViewController.h */,
+				0FC2CA791A3456F7007B8990 /* ViewController.mm */,
+				0F0D78141BC77AA600EF5466 /* ILAI.h */,
+				0F0D78151BC77AA600EF5466 /* ILAI.m */,
+				0F8383B01A3EA32400CAE331 /* myimage */,
+				0F3D98F21A396A040087C2D2 /* ExpandAlertView */,
+				0F3D98F61A396A040087C2D2 /* expendAlertViewDemo-Info.plist */,
+				0F3D98F71A396A040087C2D2 /* expendAlertViewDemo-Prefix.pch */,
+				0FC2CA7C1A3456F7007B8990 /* ZFiveq.cpp */,
+				0FC2CA7D1A3456F7007B8990 /* ZFiveq.h */,
+				0FC2CA701A3456F7007B8990 /* Base.lproj */,
 				0FA0C4D21A2CC07B003D65F4 /* Supporting Files */,
 			);
 			path = "五子棋ipad";
@@ -117,6 +195,15 @@
 				0FA0C4ED1A2CC07B003D65F4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FC2CA701A3456F7007B8990 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				0FC2CA711A3456F7007B8990 /* LaunchScreen.xib */,
+				0FC2CA731A3456F7007B8990 /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +255,7 @@
 				TargetAttributes = {
 					0FA0C4CE1A2CC07A003D65F4 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = RH487T77ZJ;
 					};
 					0FA0C4E71A2CC07B003D65F4 = {
 						CreatedOnToolsVersion = 6.1;
@@ -199,9 +287,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA0C4DE1A2CC07B003D65F4 /* Main.storyboard in Resources */,
+				0FC2CA871A3456F7007B8990 /* whitechess(j).png in Resources */,
+				0FC2CA821A3456F7007B8990 /* blackchess.png in Resources */,
+				0FC2CA801A3456F7007B8990 /* LaunchScreen.xib in Resources */,
+				0FC2CA861A3456F7007B8990 /* whitechess.png in Resources */,
+				0FC2CA811A3456F7007B8990 /* Main.storyboard in Resources */,
+				0F3D98FA1A396A040087C2D2 /* expendAlertViewDemo-Info.plist in Resources */,
+				0FC2CA7F1A3456F7007B8990 /* allmap.png in Resources */,
+				0F8383C01A3EADA000CAE331 /* background5.png in Resources */,
+				0FC2CA831A3456F7007B8990 /* blackchess(j).png in Resources */,
+				0FC2CA891A3456F7007B8990 /* ZstartButton.png in Resources */,
 				0FA0C4E31A2CC07B003D65F4 /* LaunchScreen.xib in Resources */,
+				0F8383BE1A3EA54D00CAE331 /* background4.png in Resources */,
 				0FA0C4E01A2CC07B003D65F4 /* Images.xcassets in Resources */,
+				0F3D98F91A396A040087C2D2 /* AlartViewController.xib in Resources */,
+				0F8383BC1A3EA54D00CAE331 /* background2.png in Resources */,
+				0F8383BD1A3EA54D00CAE331 /* background3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA0C4DB1A2CC07B003D65F4 /* ViewController.m in Sources */,
+				0F0D78161BC77AA600EF5466 /* ILAI.m in Sources */,
+				0F3D98F81A396A040087C2D2 /* AlartViewController.m in Sources */,
+				0FC2CA881A3456F7007B8990 /* ZFiveq.cpp in Sources */,
 				0FA0C4D81A2CC07B003D65F4 /* AppDelegate.m in Sources */,
 				0FA0C4D51A2CC07B003D65F4 /* main.m in Sources */,
+				0FC2CA851A3456F7007B8990 /* ViewController.mm in Sources */,
+				0FA28EB61A3DDA2C00DC4E17 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +349,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0FA0C4DC1A2CC07B003D65F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FA0C4DD1A2CC07B003D65F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0FA0C4E11A2CC07B003D65F4 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0FA0C4E21A2CC07B003D65F4 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0FC2CA711A3456F7007B8990 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FC2CA721A3456F7007B8990 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0FC2CA731A3456F7007B8990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FC2CA741A3456F7007B8990 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -345,7 +458,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "五子棋ipad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,7 +470,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "五子棋ipad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +531,7 @@
 				0FA0C4F41A2CC07B003D65F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FA0C4F51A2CC07B003D65F4 /* Build configuration list for PBXNativeTarget "五子棋ipadTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +540,7 @@
 				0FA0C4F71A2CC07B003D65F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
